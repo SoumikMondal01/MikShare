@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App {
+  background-color: black;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+
+img{
+  width: 30%;
+}
+.wrapper{
+  background-color: antiquewhite;
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+h1{
+  font-size: 40px;
+  font-weight: 600;
+  color: rgb(109, 60, 109);
+  margin: 40px 0;
+}
+button{
+  margin: 10px;
+  padding: 8px;
+  width: 150px;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: 300;
+  border: 2px solid;
+  border-color: rgb(46, 43, 43);
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.5);
+}
+button:hover{
+  background-color: grey;
+  color: whitesmoke;
+  
+}
